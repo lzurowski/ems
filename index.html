@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl" ng-app="app">
+
+<head>
+    <title>EMS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link rel="stylesheet" href="/vendor/angular/angular-csp.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/vendor/angular-bootstrap/ui-bootstrap-csp.css" />
+    <link href="app/css/style.css" rel="stylesheet">
+</head>
+
+<body class="ng-cloak">
+    <div class="container">
+        <ng-view>
+
+        </ng-view>
+    </div>
+
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="vendor/angular-animate/angular-animate.min.js"></script>
+    <script src="vendor/angular-touch/angular-touch.min.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+
+    <script src="app/app.js"></script>
+
+    <!-- services -->
+    <script src="app/services/Rest.js"></script>
+    <!-- controllers -->
+    <script src="app/controllers/SiteCtrl.js"></script>
+
+</body>
+
+</html>
